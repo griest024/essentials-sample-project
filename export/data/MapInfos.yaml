@@ -1,0 +1,593 @@
+--- !ruby/object:Hash
+root: !ruby/object:Hash
+  1: !ruby/object:RPG::MapInfo
+    order: 1
+    parent_id: 0
+    name: Intro
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  2: !ruby/object:RPG::MapInfo
+    order: 2
+    parent_id: 0
+    name: Lappet Town
+    scroll_y: 336
+    scroll_x: 512
+    expanded: true
+  3: !ruby/object:RPG::MapInfo
+    order: 3
+    parent_id: 2
+    name: "\\PN's house"
+    scroll_y: 240
+    scroll_x: 496
+    expanded: false
+  4: !ruby/object:RPG::MapInfo
+    order: 5
+    parent_id: 2
+    name: !binary |-
+      UG9rw6ltb24gTGFi
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  5: !ruby/object:RPG::MapInfo
+    order: 6
+    parent_id: 0
+    name: Route 1
+    scroll_y: 384
+    scroll_x: 576
+    expanded: false
+  6: !ruby/object:RPG::MapInfo
+    order: 7
+    parent_id: 5
+    name: Kurt's house
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  7: !ruby/object:RPG::MapInfo
+    order: 8
+    parent_id: 0
+    name: Cedolan City
+    scroll_y: 704
+    scroll_x: 832
+    expanded: false
+  8: !ruby/object:RPG::MapInfo
+    order: 4
+    parent_id: 2
+    name: Daisy's house
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  9: !ruby/object:RPG::MapInfo
+    order: 9
+    parent_id: 7
+    name: !binary |-
+      Q2Vkb2xhbiBDaXR5IFBva8OpIENlbnRlcg==
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  10: !ruby/object:RPG::MapInfo
+    order: 10
+    parent_id: 7
+    name: Cedolan Gym
+    scroll_y: 256
+    scroll_x: 320
+    expanded: false
+  11: !ruby/object:RPG::MapInfo
+    order: 11
+    parent_id: 7
+    name: !binary |-
+      UG9rw6ltb24gSW5zdGl0dXRl
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  12: !ruby/object:RPG::MapInfo
+    order: 12
+    parent_id: 7
+    name: Cedolan City Condo
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  13: !ruby/object:RPG::MapInfo
+    order: 13
+    parent_id: 7
+    name: Game Corner
+    scroll_y: 524
+    scroll_x: 320
+    expanded: false
+  14: !ruby/object:RPG::MapInfo
+    order: 14
+    parent_id: 7
+    name: Cedolan Dept. 1F
+    scroll_y: 256
+    scroll_x: 320
+    expanded: false
+  15: !ruby/object:RPG::MapInfo
+    order: 15
+    parent_id: 14
+    name: Cedolan Dept. 2F
+    scroll_y: 256
+    scroll_x: 320
+    expanded: false
+  16: !ruby/object:RPG::MapInfo
+    order: 16
+    parent_id: 14
+    name: Cedolan Dept. 3F
+    scroll_y: 256
+    scroll_x: 320
+    expanded: false
+  17: !ruby/object:RPG::MapInfo
+    order: 17
+    parent_id: 14
+    name: Cedolan Dept. 4F
+    scroll_y: 256
+    scroll_x: 320
+    expanded: false
+  18: !ruby/object:RPG::MapInfo
+    order: 18
+    parent_id: 14
+    name: Cedolan Dept. 5F
+    scroll_y: 256
+    scroll_x: 320
+    expanded: false
+  19: !ruby/object:RPG::MapInfo
+    order: 19
+    parent_id: 14
+    name: Cedolan Dept. Rooftop
+    scroll_y: 320
+    scroll_x: 512
+    expanded: false
+  20: !ruby/object:RPG::MapInfo
+    order: 20
+    parent_id: 14
+    name: Cedolan Dept. Elevator
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  21: !ruby/object:RPG::MapInfo
+    order: 21
+    parent_id: 0
+    name: Route 2
+    scroll_y: 1996
+    scroll_x: 624
+    expanded: false
+  22: !ruby/object:RPG::MapInfo
+    order: 70
+    parent_id: 0
+    name: VA Beach
+    scroll_y: 974
+    scroll_x: 624
+    expanded: false
+  23: !ruby/object:RPG::MapInfo
+    order: 22
+    parent_id: 0
+    name: Lerucean Town
+    scroll_y: 468
+    scroll_x: 656
+    expanded: false
+  24: !ruby/object:RPG::MapInfo
+    order: 23
+    parent_id: 23
+    name: !binary |-
+      TGVydWNlYW4gVG93biBQb2vDqSBDZW50ZXI=
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  25: !ruby/object:RPG::MapInfo
+    order: 24
+    parent_id: 23
+    name: Lerucean Town Mart
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  26: !ruby/object:RPG::MapInfo
+    order: 25
+    parent_id: 23
+    name: !binary |-
+      UG9rw6ltb24gRmFuIENsdWI=
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  27: !ruby/object:RPG::MapInfo
+    order: 26
+    parent_id: 23
+    name: !binary |-
+      UG9rw6ltb24gRGF5IENhcmU=
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  28: !ruby/object:RPG::MapInfo
+    order: 27
+    parent_id: 0
+    name: Natural Park
+    scroll_y: 637
+    scroll_x: 800
+    expanded: false
+  29: !ruby/object:RPG::MapInfo
+    order: 28
+    parent_id: 28
+    name: Natural Park Entrance
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  30: !ruby/object:RPG::MapInfo
+    order: 29
+    parent_id: 28
+    name: Natural Park Pavillion
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  31: !ruby/object:RPG::MapInfo
+    order: 30
+    parent_id: 0
+    name: Route 3
+    scroll_y: 1681
+    scroll_x: 1430
+    expanded: false
+  32: !ruby/object:RPG::MapInfo
+    order: 72
+    parent_id: 22
+    name: VA Beach Int
+    scroll_y: 2152
+    scroll_x: 640
+    expanded: false
+  33: !ruby/object:RPG::MapInfo
+    order: 79
+    parent_id: 77
+    name: Beach Cave F1
+    scroll_y: 640
+    scroll_x: 800
+    expanded: false
+  34: !ruby/object:RPG::MapInfo
+    order: 31
+    parent_id: 31
+    name: Ice Cave
+    scroll_y: 844
+    scroll_x: 672
+    expanded: false
+  35: !ruby/object:RPG::MapInfo
+    order: 32
+    parent_id: 0
+    name: Ingido Plateau
+    scroll_y: 478
+    scroll_x: 560
+    expanded: false
+  36: !ruby/object:RPG::MapInfo
+    order: 33
+    parent_id: 35
+    name: !binary |-
+      UG9rw6ltb24gTGVhZ3Vl
+    scroll_y: 288
+    scroll_x: 400
+    expanded: false
+  37: !ruby/object:RPG::MapInfo
+    order: 34
+    parent_id: 35
+    name: !binary |-
+      UG9rw6ltb24gTGVhZ3Vl
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  38: !ruby/object:RPG::MapInfo
+    order: 35
+    parent_id: 35
+    name: Hall of Fame
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  39: !ruby/object:RPG::MapInfo
+    order: 36
+    parent_id: 0
+    name: Route 4
+    scroll_y: 368
+    scroll_x: 704
+    expanded: false
+  40: !ruby/object:RPG::MapInfo
+    order: 37
+    parent_id: 39
+    name: Route 4
+    scroll_y: 336
+    scroll_x: 528
+    expanded: false
+  41: !ruby/object:RPG::MapInfo
+    order: 39
+    parent_id: 0
+    name: Route 5
+    scroll_y: 3948
+    scroll_x: 576
+    expanded: false
+  42: !ruby/object:RPG::MapInfo
+    order: 73
+    parent_id: 22
+    name: "\\PN's house"
+    scroll_y: 240
+    scroll_x: 496
+    expanded: false
+  43: !ruby/object:RPG::MapInfo
+    order: 74
+    parent_id: 22
+    name: Daisy's house
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  44: !ruby/object:RPG::MapInfo
+    order: 40
+    parent_id: 0
+    name: Route 6
+    scroll_y: 468
+    scroll_x: 720
+    expanded: false
+  45: !ruby/object:RPG::MapInfo
+    order: 41
+    parent_id: 44
+    name: Route 6
+    scroll_y: 384
+    scroll_x: 624
+    expanded: false
+  46: !ruby/object:RPG::MapInfo
+    order: 38
+    parent_id: 39
+    name: Cycling Road gate
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  47: !ruby/object:RPG::MapInfo
+    order: 43
+    parent_id: 0
+    name: Route 7
+    scroll_y: 562
+    scroll_x: 1386
+    expanded: false
+  48: !ruby/object:RPG::MapInfo
+    order: 75
+    parent_id: 0
+    name: !binary |-
+      UG9rw6ltb24gTGFi
+    scroll_y: 240
+    scroll_x: 320
+    expanded: true
+  49: !ruby/object:RPG::MapInfo
+    order: 44
+    parent_id: 47
+    name: Rock Cave
+    scroll_y: 464
+    scroll_x: 544
+    expanded: true
+  50: !ruby/object:RPG::MapInfo
+    order: 45
+    parent_id: 49
+    name: Rock Cave
+    scroll_y: 416
+    scroll_x: 480
+    expanded: false
+  51: !ruby/object:RPG::MapInfo
+    order: 46
+    parent_id: 49
+    name: Dungeon
+    scroll_y: 459
+    scroll_x: 809
+    expanded: false
+  52: !ruby/object:RPG::MapInfo
+    order: 47
+    parent_id: 0
+    name: Battle Frontier
+    scroll_y: 576
+    scroll_x: 704
+    expanded: false
+  53: !ruby/object:RPG::MapInfo
+    order: 48
+    parent_id: 52
+    name: !binary |-
+      QmF0dGxlIEZyb250aWVyIFBva8OpIENlbnRlcg==
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  54: !ruby/object:RPG::MapInfo
+    order: 49
+    parent_id: 52
+    name: Battle Frontier Mart
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  55: !ruby/object:RPG::MapInfo
+    order: 50
+    parent_id: 52
+    name: Battle Tower
+    scroll_y: 240
+    scroll_x: 320
+    expanded: true
+  56: !ruby/object:RPG::MapInfo
+    order: 51
+    parent_id: 55
+    name: Battle Tower arena
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  57: !ruby/object:RPG::MapInfo
+    order: 52
+    parent_id: 55
+    name: Stadium Cup lobby
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  58: !ruby/object:RPG::MapInfo
+    order: 53
+    parent_id: 52
+    name: Battle Palace
+    scroll_y: 240
+    scroll_x: 320
+    expanded: true
+  59: !ruby/object:RPG::MapInfo
+    order: 54
+    parent_id: 58
+    name: Battle Palace arena
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  60: !ruby/object:RPG::MapInfo
+    order: 55
+    parent_id: 52
+    name: Battle Arena
+    scroll_y: 240
+    scroll_x: 320
+    expanded: true
+  61: !ruby/object:RPG::MapInfo
+    order: 56
+    parent_id: 60
+    name: Battle Arena arena
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  62: !ruby/object:RPG::MapInfo
+    order: 57
+    parent_id: 52
+    name: Battle Factory
+    scroll_y: 240
+    scroll_x: 320
+    expanded: true
+  63: !ruby/object:RPG::MapInfo
+    order: 58
+    parent_id: 62
+    name: Battle Factory intro corridor
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  64: !ruby/object:RPG::MapInfo
+    order: 59
+    parent_id: 62
+    name: Battle Factory arena
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  65: !ruby/object:RPG::MapInfo
+    order: 60
+    parent_id: 62
+    name: Battle Factory corridor
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  66: !ruby/object:RPG::MapInfo
+    order: 61
+    parent_id: 0
+    name: Safari Zone
+    scroll_y: 336
+    scroll_x: 352
+    expanded: false
+  67: !ruby/object:RPG::MapInfo
+    order: 62
+    parent_id: 66
+    name: Safari Zone gate
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  68: !ruby/object:RPG::MapInfo
+    order: 63
+    parent_id: 66
+    name: Safari Zone
+    scroll_y: 544
+    scroll_x: 816
+    expanded: false
+  69: !ruby/object:RPG::MapInfo
+    order: 64
+    parent_id: 0
+    name: Route 8
+    scroll_y: 468
+    scroll_x: 736
+    expanded: false
+  70: !ruby/object:RPG::MapInfo
+    order: 65
+    parent_id: 69
+    name: Underwater
+    scroll_y: 652
+    scroll_x: 736
+    expanded: false
+  71: !ruby/object:RPG::MapInfo
+    order: 66
+    parent_id: 69
+    name: Harbour
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  72: !ruby/object:RPG::MapInfo
+    order: 67
+    parent_id: 0
+    name: Berth Island
+    scroll_y: 468
+    scroll_x: 464
+    expanded: false
+  73: !ruby/object:RPG::MapInfo
+    order: 68
+    parent_id: 0
+    name: Faraday Island
+    scroll_y: 468
+    scroll_x: 464
+    expanded: false
+  74: !ruby/object:RPG::MapInfo
+    order: 42
+    parent_id: 44
+    name: Cycling Road gate
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  75: !ruby/object:RPG::MapInfo
+    order: 69
+    parent_id: 0
+    name: Tiall Region
+    scroll_y: 384
+    scroll_x: 512
+    expanded: false
+  76: !ruby/object:RPG::MapInfo
+    order: 71
+    parent_id: 22
+    name: Pokemon Lab
+    scroll_y: 240
+    scroll_x: 320
+    expanded: false
+  77: !ruby/object:RPG::MapInfo
+    order: 77
+    parent_id: 0
+    name: Beach
+    scroll_y: 1134
+    scroll_x: 400
+    expanded: false
+  78: !ruby/object:RPG::MapInfo
+    order: 80
+    parent_id: 77
+    name: Beach Cave F2
+    scroll_y: 640
+    scroll_x: 480
+    expanded: false
+  79: !ruby/object:RPG::MapInfo
+    order: 78
+    parent_id: 77
+    name: Rock Cave
+    scroll_y: 464
+    scroll_x: 544
+    expanded: false
+  80: !ruby/object:RPG::MapInfo
+    order: 81
+    parent_id: 77
+    name: Beach Cave F3
+    scroll_y: 400
+    scroll_x: 400
+    expanded: false
+  81: !ruby/object:RPG::MapInfo
+    order: 76
+    parent_id: 0
+    name: Route 1
+    scroll_y: 960
+    scroll_x: 1168
+    expanded: false
+  82: !ruby/object:RPG::MapInfo
+    order: 82
+    parent_id: 77
+    name: Beach Cove
+    scroll_y: 320
+    scroll_x: 320
+    expanded: false
+  83: !ruby/object:RPG::MapInfo
+    order: 83
+    parent_id: 0
+    name: MAP083
+    scroll_y: 800
+    scroll_x: 800
+    expanded: false

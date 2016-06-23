@@ -1,0 +1,7 @@
+Essentials v16.2 is an update release, not a stand-alone release. It requires Essentials v16 to use.
+
+===== How to use =====
+
+Look in the "Data" folder of Essentials v16, and replace the three files in there with the files in this download.
+
+These files replace all of the files that were included in the v16.1 update release, which means you can go straight from v16 to v16.2 if you haven't already upgraded to v16.1.

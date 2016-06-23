@@ -1,0 +1,32 @@
+--- !ruby/object:Hash
+root:
+-
+- !ruby/object:RPG::State
+  plus_state_set: []
+  animation_id: 0
+  cant_evade: false
+  eva: 0
+  mdef_rate: 100
+  maxhp_rate: 100
+  restriction: 0
+  auto_release_prob: 0
+  dex_rate: 100
+  id: 1
+  slip_damage: false
+  pdef_rate: 100
+  cant_get_exp: false
+  atk_rate: 100
+  str_rate: 100
+  minus_state_set: []
+  shock_release_prob: 0
+  nonresistance: false
+  zero_hp: false
+  guard_element_set: []
+  hit_rate: 100
+  battle_only: true
+  agi_rate: 100
+  name: ''
+  int_rate: 100
+  maxsp_rate: 100
+  rating: 5
+  hold_turn: 0

@@ -1,0 +1,401 @@
+--- !ruby/object:Hash
+root:
+-
+- !ruby/object:RPG::CommonEvent
+  name: Professor Oak phone
+  id: 1
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 101
+    parameters:
+    - "......\\wt[5] ......"
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 111
+    parameters:
+    - 12
+    - "$game_map.map_id==4"
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - Hello, \PN!\nI can see you calling me over there!
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - Come over and talk to me.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 119
+    parameters:
+    - End call
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 101
+    parameters:
+    - Hello, this is Professor Oak...\nOh, hello, \PN!
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 101
+    parameters:
+    - !binary |-
+      U28sIGhvdydzIHlvdXIgUG9rw6lkZXggY29taW5nIGFsb25nPw==
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 102
+    parameters:
+    - - !binary |-
+        RXZhbHVhdGUgUG9rw6lkZXg=
+      - Quit
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 402
+    parameters:
+    - 0
+    - !binary |-
+      RXZhbHVhdGUgUG9rw6lkZXg=
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 355
+    parameters:
+    - pbSet(1,$Trainer.pokedexSeen)
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 655
+    parameters:
+    - pbSet(2,$Trainer.pokedexOwned)
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - !binary |-
+      SG1tLCBsZXQncyBzZWUuLlxuWW91J3ZlIHNlZW4gXHZbMV0gUG9rw6ltb24s
+      IGFuZA==
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 401
+    parameters:
+    - !binary |-
+      XG55b3UndmUgY2F1Z2h0IFx2WzJdIFBva8OpbW9uIVxuSSBzZWUh
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 2
+    - 0
+    - 30
+    - 4
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Hmm, you still have a long journey ahead of you!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "\\nKeep on going!"
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 119
+    parameters:
+    - End evaluation
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 2
+    - 0
+    - 75
+    - 4
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - !binary |-
+      SG1tLCB5b3UncmUgY2F0Y2hpbmcgUG9rw6ltb24gYXQgYSBkZWNlbnQgcGFj
+      ZSE=
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 119
+    parameters:
+    - End evaluation
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 2
+    - 0
+    - 150
+    - 4
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - !binary |-
+      WW91J3ZlIGNhdWdodCBhIGxvdCBvZiBQb2vDqW1vbiwgYnV0IG1ha2Ugc3Vy
+      ZSB5b3UncmUg
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - raising them carefully!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 119
+    parameters:
+    - End evaluation
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 2
+    - 0
+    - 150
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - !binary |-
+      SSBkaWRuJ3QgZXZlbiBrbm93IHRoYXQgbWFueSBQb2vDqW1vbiBleGlzdGVk
+      IQ==
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 119
+    parameters:
+    - End evaluation
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 118
+    parameters:
+    - End evaluation
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - !binary |-
+      U2hvdyBtZSB5b3VyIFBva8OpZGV4IGFnYWluIGFueXRpbWUh
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 402
+    parameters:
+    - 1
+    - Quit
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - !binary |-
+      U2hvdyBtZSB5b3VyIFBva8OpZGV4IGFueXRpbWUh
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 404
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 118
+    parameters:
+    - End call
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 101
+    parameters:
+    - Click!\wt[10]\n......\wt[5] ......
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: Brendan dependent event
+  id: 2
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 101
+    parameters:
+    - "\\bDo you want me to stop following you?"
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 102
+    parameters:
+    - - 'Yes'
+      - 'No'
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 402
+    parameters:
+    - 0
+    - 'Yes'
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 355
+    parameters:
+    - pbRemoveDependency2("Brendan")
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 355
+    parameters:
+    - pbDeregisterPartner
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - "\\bI'll stay here, then."
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 402
+    parameters:
+    - 1
+    - 'No'
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 101
+    parameters:
+    - "\\bLet's keep going!"
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 404
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 3
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 4
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 5
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 6
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 7
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 8
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []
+- !ruby/object:RPG::CommonEvent
+  name: ''
+  id: 9
+  switch_id: 1
+  trigger: 0
+  list:
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 0
+    parameters: []

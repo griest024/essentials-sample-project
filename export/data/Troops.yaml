@@ -1,0 +1,27 @@
+--- !ruby/object:Hash
+root:
+-
+- !ruby/object:RPG::Troop
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    span: 0
+    list:
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 0
+      parameters: []
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      enemy_index: 0
+      switch_valid: false
+      turn_b: 0
+      enemy_valid: false
+      turn_a: 0
+      actor_hp: 50
+      actor_valid: false
+      switch_id: 1
+      turn_valid: false
+      enemy_hp: 50
+      actor_id: 1
+  members: []
+  id: 1

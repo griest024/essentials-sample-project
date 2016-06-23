@@ -1,0 +1,32 @@
+--- !ruby/object:Hash
+root:
+-
+- !ruby/object:RPG::Item
+  menu_se: !ruby/object:RPG::AudioFile
+    pitch: 100
+    name: ''
+    volume: 80
+  element_set: []
+  plus_state_set: []
+  hit: 100
+  variance: 0
+  id: 1
+  price: 0
+  animation1_id: 0
+  mdef_f: 0
+  consumable: true
+  minus_state_set: []
+  pdef_f: 0
+  description: ''
+  occasion: 0
+  parameter_points: 0
+  icon_name: ''
+  recover_hp: 0
+  scope: 0
+  common_event_id: 0
+  recover_sp_rate: 0
+  recover_sp: 0
+  name: ''
+  parameter_type: 0
+  animation2_id: 0
+  recover_hp_rate: 0
